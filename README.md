@@ -156,21 +156,14 @@ const tracker = new TrackerSimple(logger, {
 });
 ```
 
+
 ## 🏗️ Architecture
 
-### Pipeline Flow
+### System Flow Diagram
 
-```
-Video Frame → Detection → Tracking → ROI Gating → Session Management
-     ↓           ↓           ↓           ↓              ↓
-  Canvas     Bounding    Track IDs   Inside/Outside  Crop Collection
-  Overlay      Boxes                    Check
-
-Session Complete → Best Frame → OCR → Validation → Voting → Event
-       ↓              ↓         ↓         ↓          ↓        ↓
-   Finalize      Quality    Multiple   Rules     Consensus  Dashboard
-               Scoring    Candidates  Check    Selection    Entry
-```
+<p align="center">
+  <img src="docs/system-diagram.svg" alt="ANPR System Flow Diagram" width="800" />
+</p>
 
 ### Key Design Decisions
 
