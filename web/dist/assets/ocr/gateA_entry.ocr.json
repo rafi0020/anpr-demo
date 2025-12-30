@@ -1,0 +1,152 @@
+{
+  "videoId": "gateA_entry",
+  "tracks": {
+    "1": {
+      "trackId": "1",
+      "startMs": 2200,
+      "endMs": 4600,
+      "crops": [
+        {
+          "cropId": "1_02800",
+          "timeMs": 2800,
+          "frameNumber": 84,
+          "bbox": [895, 612, 1095, 688],
+          "quality": {
+            "sharpness": 0.72,
+            "contrast": 0.68,
+            "area": 0.75
+          },
+          "candidates": [
+            {"text": "সখী-বয়-যায়র", "conf": 0.78, "script": "bengali"},
+            {"text": "সখী-বয-যায়ব", "conf": 0.52, "script": "bengali"},
+            {"text": "সখী-বয়-যায়", "conf": 0.41, "script": "bengali"}
+          ]
+        },
+        {
+          "cropId": "1_03000",
+          "timeMs": 3000,
+          "frameNumber": 90,
+          "bbox": [900, 610, 1100, 690],
+          "quality": {
+            "sharpness": 0.85,
+            "contrast": 0.78,
+            "area": 0.82
+          },
+          "candidates": [
+            {"text": "সখী-বয-যায়র", "conf": 0.91, "script": "bengali"},
+            {"text": "সখী-বয়-যায়র", "conf": 0.89, "script": "bengali"},
+            {"text": "সখী-বয-যায়ব", "conf": 0.58, "script": "bengali"}
+          ]
+        },
+        {
+          "cropId": "1_03200",
+          "timeMs": 3200,
+          "frameNumber": 96,
+          "bbox": [902, 609, 1102, 691],
+          "quality": {
+            "sharpness": 0.92,
+            "contrast": 0.85,
+            "area": 0.84
+          },
+          "candidates": [
+            {"text": "সখী-বয-যায়র", "conf": 0.93, "script": "bengali"},
+            {"text": "সখী-বয়-যায়র", "conf": 0.92, "script": "bengali"},
+            {"text": "সখী বয যায়র", "conf": 0.71, "script": "bengali"}
+          ]
+        },
+        {
+          "cropId": "1_03400",
+          "timeMs": 3400,
+          "frameNumber": 102,
+          "bbox": [905, 608, 1105, 692],
+          "quality": {
+            "sharpness": 0.94,
+            "contrast": 0.88,
+            "area": 0.85
+          },
+          "candidates": [
+            {"text": "সখী-বয-যায়র", "conf": 0.95, "script": "bengali"},
+            {"text": "সখী-বয়-যায়র", "conf": 0.94, "script": "bengali"},
+            {"text": "সখী-বয-যায়ব", "conf": 0.62, "script": "bengali"}
+          ]
+        },
+        {
+          "cropId": "1_03600",
+          "timeMs": 3600,
+          "frameNumber": 108,
+          "bbox": [908, 607, 1108, 693],
+          "quality": {
+            "sharpness": 0.96,
+            "contrast": 0.90,
+            "area": 0.86
+          },
+          "candidates": [
+            {"text": "সখী-বয-যায়র", "conf": 0.96, "script": "bengali"},
+            {"text": "সখী-বয়-যায়র", "conf": 0.95, "script": "bengali"},
+            {"text": "সখী বয় যায়র", "conf": 0.68, "script": "bengali"}
+          ]
+        },
+        {
+          "cropId": "1_03800",
+          "timeMs": 3800,
+          "frameNumber": 114,
+          "bbox": [910, 606, 1110, 694],
+          "quality": {
+            "sharpness": 0.93,
+            "contrast": 0.87,
+            "area": 0.86
+          },
+          "candidates": [
+            {"text": "সখী-বয-যায়র", "conf": 0.94, "script": "bengali"},
+            {"text": "সখী-বয়-যায়র", "conf": 0.93, "script": "bengali"},
+            {"text": "সখী-বয-যায়ব", "conf": 0.61, "script": "bengali"}
+          ]
+        },
+        {
+          "cropId": "1_04000",
+          "timeMs": 4000,
+          "frameNumber": 120,
+          "bbox": [912, 605, 1112, 695],
+          "quality": {
+            "sharpness": 0.88,
+            "contrast": 0.82,
+            "area": 0.86
+          },
+          "candidates": [
+            {"text": "সখী-বয-যায়র", "conf": 0.92, "script": "bengali"},
+            {"text": "সখী-বয়-যায়র", "conf": 0.90, "script": "bengali"},
+            {"text": "সখী-বয-যায়", "conf": 0.55, "script": "bengali"}
+          ]
+        },
+        {
+          "cropId": "1_04200",
+          "timeMs": 4200,
+          "frameNumber": 126,
+          "bbox": [915, 604, 1115, 696],
+          "quality": {
+            "sharpness": 0.81,
+            "contrast": 0.76,
+            "area": 0.85
+          },
+          "candidates": [
+            {"text": "সখী-বয-যায়র", "conf": 0.88, "script": "bengali"},
+            {"text": "সখী-বয়-যায়র", "conf": 0.86, "script": "bengali"},
+            {"text": "সখী বয যায়র", "conf": 0.65, "script": "bengali"}
+          ]
+        }
+      ],
+      "sessionMetadata": {
+        "totalCrops": 8,
+        "bestCropId": "1_03600",
+        "averageConfidence": 0.91,
+        "plateType": "bengali_custom"
+      }
+    }
+  },
+  "metadata": {
+    "generatedAt": "2024-01-15T10:00:00Z",
+    "ocrModel": "PaddleOCR",
+    "preprocessed": true,
+    "language": "bengali"
+  }
+}

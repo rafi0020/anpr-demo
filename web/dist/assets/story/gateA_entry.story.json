@@ -1,0 +1,48 @@
+{
+  "videoId": "gateA_entry",
+  "gate": "Gate A - Entry",
+  "segments": [
+    {
+      "startMs": 0,
+      "endMs": 1000,
+      "title": "Approach",
+      "narration": "Vehicle approaches the checkpoint. System begins detection and initializes tracking.",
+      "systemStatus": "DETECTING",
+      "expectedActions": ["Initialize detector", "Start tracking"]
+    },
+    {
+      "startMs": 3000,
+      "endMs": 4000,
+      "title": "OCR window",
+      "narration": "Plate visible. Best-frame selection, OCR candidates, validation rules, and voting determine final plate.",
+      "systemStatus": "PROCESSING",
+      "expectedActions": ["Best frame selection", "OCR processing", "Validation", "Voting"],
+      "plateVisible": true
+    },
+    {
+      "startMs": 5000,
+      "endMs": 6500,
+      "title": "Passing gate",
+      "narration": "Vehicle passes the gate. De-duplication checks performed; upload payload prepared.",
+      "systemStatus": "UPLOADING",
+      "expectedActions": ["Deduplication check", "Prepare upload"]
+    },
+    {
+      "startMs": 6500,
+      "endMs": 7500,
+      "title": "Cleared",
+      "narration": "Vehicle clears checkpoint. Event appears in dashboard with evidence and trace logs.",
+      "systemStatus": "COMPLETE",
+      "expectedActions": ["Dashboard update", "Log archival"]
+    }
+  ],
+  "expectedPlate": "সখী-বয-যায়র",
+  "metadata": {
+    "location": "Gate A - Entry",
+    "direction": "ENTRY",
+    "recordedAt": "2024-01-15T10:30:00Z",
+    "fps": 30,
+    "resolution": "1920x1080",
+    "duration": 7500
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "videoId": "gateA_entry",
+  "fps": 30,
+  "resolution": {
+    "width": 1920,
+    "height": 1080
+  },
+  "frames": [
+    {
+      "timeMs": 500,
+      "frameNumber": 15,
+      "detections": [
+        {
+          "type": "vehicle",
+          "bbox": [650, 400, 1270, 780],
+          "conf": 0.89,
+          "trackId": null
+        }
+      ]
+    },
+    {
+      "timeMs": 1000,
+      "frameNumber": 30,
+      "detections": [
+        {
+          "type": "vehicle",
+          "bbox": [680, 380, 1300, 800],
+          "conf": 0.92,
+          "trackId": 1
+        }
+      ]
+    },
+    {
+      "timeMs": 1500,
+      "frameNumber": 45,
+      "detections": [
+        {
+          "type": "vehicle",
+          "bbox": [700, 360, 1320, 820],
+          "conf": 0.94,
+          "trackId": 1
+        }
+      ]
+    },
+    {
+      "timeMs": 2000,
+      "frameNumber": 60,
+      "detections": [
+        {
+          "type": "vehicle",
+          "bbox": [720, 350, 1340, 840],
+          "conf": 0.95,
+          "trackId": 1
+        },
+        {
+          "type": "plate",
+          "bbox": [880, 620, 1080, 680],
+          "conf": 0.72,
+          "trackId": null
+        }
+      ]
+    },
+    {
+      "timeMs": 2200,
+      "frameNumber": 66,
+      "detections": [
+        {
+          "type": "vehicle",
+          "bbox": [720, 350, 1340, 840],
+          "conf": 0.96,
+          "trackId": 1
+        },
+        {
+          "type": "plate",
+          "bbox": [885, 618, 1085, 682],
+          "conf": 0.78,
+          "trackId": 1
+        }
+      ]
+    },
+    {
+      "timeMs": 2400,
+      "frameNumber": 72,
+      "detections": [
+        {
+          "type": "vehicle",
+          "bbox": [720, 350, 1340, 840],
+          "conf": 0.96,
+          "trackId": 1
+        },
+        {
+          "type": "plate",
+          "bbox": [890, 615, 1090, 685],
+          "conf": 0.82,
+          "trackId": 1
+        }
+      ]
+    },
+    {
+      "timeMs": 2600,
+      "frameNumber": 78,
+      "detections": [
+        {
+          "type": "vehicle",
+          "bbox": [720, 350, 1340, 840],
+          "conf": 0.97,
+          "trackId": 1
+        },
+        {
+          "type": "plate",
+          "bbox": [892, 614, 1092, 686],
+          "conf": 0.85,
+          "trackId": 1
+        }
+      ]
+    },
+    {
+      "timeMs": 2800,
+      "frameNumber": 84,
+      "detections": [
+        {
+          "type": "vehicle",
+          "bbox": [720, 350, 1340, 840],
+          "conf": 0.97,
+          "trackId": 1
+        },
+        {
+          "type": "plate",
+          "bbox": [895, 612, 1095, 688],
+          "conf": 0.88,
+          "trackId": 1
+        }
+      ]
+    },
+    {
+      "timeMs": 3000,
+      "frameNumber": 90,
+      "detections": [
+        {
+          "type": "vehicle",
+          "bbox": [720, 350, 1340, 840],
+          "conf": 0.98,
+          "trackId": 1
+        },
+        {
+          "type": "plate",
+          "bbox": [900, 610, 1100, 690],
+          "conf": 0.91,
+          "trackId": 1
+        }
+      ]
+    },
+    {
+      "timeMs": 3200,
+      "frameNumber": 96,
+      "detections": [
+        {
+          "type": "vehicle",
+          "bbox": [720, 350, 1340, 840],
+          "conf": 0.98,
+          "trackId": 1
+        },
+        {
+          "type": "plate",
+          "bbox": [902, 609, 1102, 691],
+          "conf": 0.93,
+          "trackId": 1
+        }
+      ]
+    },
+    {
+      "timeMs": 3400,
+      "frameNumber": 102,
+      "detections": [
+        {
+          "type": "vehicle",
+          "bbox": [720, 350, 1340, 840],
+          "conf": 0.98,
+          "trackId": 1
+        },
+        {
+          "type": "plate",
+          "bbox": [905, 608, 1105, 692],
+          "conf": 0.94,
+          "trackId": 1
+        }
+      ]
+    },
+    {
+      "timeMs": 3600,
+      "frameNumber": 108,
+      "detections": [
+        {
+          "type": "vehicle",
+          "bbox": [720, 350, 1340, 840],
+          "conf": 0.98,
+          "trackId": 1
+        },
+        {
+          "type": "plate",
+          "bbox": [908, 607, 1108, 693],
+          "conf": 0.95,
+          "trackId": 1
+        }
+      ]
+    },
+    {
+      "timeMs": 3800,
+      "frameNumber": 114,
+      "detections": [
+        {
+          "type": "vehicle",
+          "bbox": [720, 350, 1340, 840],
+          "conf": 0.97,
+          "trackId": 1
+        },
+        {
+          "type": "plate",
+          "bbox": [910, 606, 1110, 694],
+          "conf": 0.94,
+          "trackId": 1
+        }
+      ]
+    },
+    {
+      "timeMs": 4000,
+      "frameNumber": 120,
+      "detections": [
+        {
+          "type": "vehicle",
+          "bbox": [720, 350, 1340, 840],
+          "conf": 0.96,
+          "trackId": 1
+        },
+        {
+          "type": "plate",
+          "bbox": [912, 605, 1112, 695],
+          "conf": 0.92,
+          "trackId": 1
+        }
+      ]
+    },
+    {
+      "timeMs": 4200,
+      "frameNumber": 126,
+      "detections": [
+        {
+          "type": "vehicle",
+          "bbox": [730, 345, 1350, 845],
+          "conf": 0.95,
+          "trackId": 1
+        },
+        {
+          "type": "plate",
+          "bbox": [915, 604, 1115, 696],
+          "conf": 0.89,
+          "trackId": 1
+        }
+      ]
+    },
+    {
+      "timeMs": 4400,
+      "frameNumber": 132,
+      "detections": [
+        {
+          "type": "vehicle",
+          "bbox": [750, 340, 1370, 850],
+          "conf": 0.93,
+          "trackId": 1
+        },
+        {
+          "type": "plate",
+          "bbox": [920, 602, 1120, 698],
+          "conf": 0.85,
+          "trackId": 1
+        }
+      ]
+    },
+    {
+      "timeMs": 4600,
+      "frameNumber": 138,
+      "detections": [
+        {
+          "type": "vehicle",
+          "bbox": [780, 330, 1400, 860],
+          "conf": 0.91,
+          "trackId": 1
+        },
+        {
+          "type": "plate",
+          "bbox": [930, 600, 1130, 700],
+          "conf": 0.78,
+          "trackId": 1
+        }
+      ]
+    },
+    {
+      "timeMs": 4800,
+      "frameNumber": 144,
+      "detections": [
+        {
+          "type": "vehicle",
+          "bbox": [820, 320, 1440, 870],
+          "conf": 0.88,
+          "trackId": 1
+        }
+      ]
+    },
+    {
+      "timeMs": 5000,
+      "frameNumber": 150,
+      "detections": [
+        {
+          "type": "vehicle",
+          "bbox": [860, 310, 1480, 880],
+          "conf": 0.85,
+          "trackId": 1
+        }
+      ]
+    },
+    {
+      "timeMs": 5500,
+      "frameNumber": 165,
+      "detections": [
+        {
+          "type": "vehicle",
+          "bbox": [950, 290, 1570, 900],
+          "conf": 0.79,
+          "trackId": 1
+        }
+      ]
+    },
+    {
+      "timeMs": 6000,
+      "frameNumber": 180,
+      "detections": [
+        {
+          "type": "vehicle",
+          "bbox": [1050, 270, 1670, 920],
+          "conf": 0.72,
+          "trackId": 1
+        }
+      ]
+    },
+    {
+      "timeMs": 6500,
+      "frameNumber": 195,
+      "detections": []
+    },
+    {
+      "timeMs": 7000,
+      "frameNumber": 210,
+      "detections": []
+    }
+  ],
+  "metadata": {
+    "generatedAt": "2024-01-15T10:00:00Z",
+    "model": "YOLOv8",
+    "preprocessed": true,
+    "interpolated": false
+  }
+}

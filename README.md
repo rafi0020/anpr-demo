@@ -2,7 +2,7 @@
 
 A Automatic Number Plate Recognition (ANPR) demonstration system with complete pipeline transparency, showcasing vehicle detection, tracking, and Bengali plate recognition.
 
-🔗 **[Live Demo](https://yourusername.github.io/anpr-demo/)**
+🔗 **[Live Demo](https://rafi0020.github.io/anpr-demo/)**
 
 ## 🎯 Overview
 

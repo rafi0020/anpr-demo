@@ -1,0 +1,126 @@
+{
+  "regions": {
+    "dhaka": {
+      "code": "ঢাকা",
+      "metro": ["মেট্রো", "মেট্রো-গ", "মেট্রো-ঘ", "মেট্রো-চ", "মেট্রো-ছ", "মেট্রো-জ", "মেট্রো-ঝ"],
+      "series": ["ক", "খ", "গ", "ঘ", "চ", "ছ", "জ", "ঝ", "ট", "ঠ"],
+      "valid": true
+    },
+    "chattogram": {
+      "code": "চট্টগ্রাম",
+      "metro": ["মেট্রো", "মেট্রো-ক", "মেট্রো-খ"],
+      "series": ["ক", "খ", "গ", "ঘ", "চ", "ছ"],
+      "valid": true
+    },
+    "rajshahi": {
+      "code": "রাজশাহী",
+      "metro": ["মেট্রো"],
+      "series": ["ক", "খ", "গ"],
+      "valid": true
+    },
+    "khulna": {
+      "code": "খুলনা",
+      "metro": ["মেট্রো"],
+      "series": ["ক", "খ", "গ"],
+      "valid": true
+    },
+    "barisal": {
+      "code": "বরিশাল",
+      "metro": [],
+      "series": ["ক", "খ"],
+      "valid": true
+    },
+    "sylhet": {
+      "code": "সিলেট",
+      "metro": ["মেট্রো"],
+      "series": ["ক", "খ", "গ"],
+      "valid": true
+    },
+    "rangpur": {
+      "code": "রংপুর",
+      "metro": [],
+      "series": ["ক", "খ"],
+      "valid": true
+    },
+    "mymensingh": {
+      "code": "ময়মনসিংহ",
+      "metro": [],
+      "series": ["ক", "খ"],
+      "valid": true
+    },
+    "custom": {
+      "code": "সখী",
+      "metro": [],
+      "series": ["বয", "যায়র"],
+      "valid": true,
+      "note": "Demo custom plate format"
+    }
+  },
+  "vehicleTypes": {
+    "private": {
+      "prefix": ["গ", "ঘ", "চ", "ছ", "জ", "ঝ", "ট", "ঠ"],
+      "color": "white",
+      "textColor": "black"
+    },
+    "commercial": {
+      "prefix": ["ক", "খ"],
+      "color": "black",
+      "textColor": "white"
+    },
+    "motorcycle": {
+      "prefix": ["ব", "ভ"],
+      "color": "white",
+      "textColor": "black"
+    },
+    "government": {
+      "prefix": ["স"],
+      "color": "red",
+      "textColor": "white"
+    },
+    "diplomatic": {
+      "prefix": ["ড"],
+      "color": "blue",
+      "textColor": "white"
+    },
+    "demo": {
+      "prefix": ["বয"],
+      "color": "white",
+      "textColor": "black",
+      "note": "Demo vehicle type"
+    }
+  },
+  "patterns": {
+    "standard": {
+      "regex": "^[ঢাকা|চট্টগ্রাম|রাজশাহী|খুলনা|বরিশাল|সিলেট|রংপুর|ময়মনসিংহ]\\s*[-\\s]*মেট্রো\\s*[-\\s]*[ক-ঠ]\\s*[-\\s]*\\d{2}\\s*[-\\s]*\\d{4}$",
+      "description": "Standard Bangladesh plate format: Region Metro Series-XX-XXXX"
+    },
+    "nonMetro": {
+      "regex": "^[ঢাকা|চট্টগ্রাম|রাজশাহী|খুলনা|বরিশাল|সিলেট|রংপুর|ময়মনসিংহ]\\s*[-\\s]*[ক-ঠ]\\s*[-\\s]*\\d{2}\\s*[-\\s]*\\d{4}$",
+      "description": "Non-metro plate format: Region Series-XX-XXXX"
+    },
+    "custom": {
+      "regex": "^সখী[-\\s]*বয[-\\s]*যায়র$",
+      "description": "Custom demo plate format"
+    }
+  },
+  "validationRules": {
+    "strictMode": {
+      "enabled": true,
+      "rules": [
+        "Must have valid region code",
+        "Must have valid series letter",
+        "Must have 2-digit class number (11-99)",
+        "Must have 4-digit serial number (0001-9999)",
+        "Optional metro designation for major cities"
+      ]
+    },
+    "fallbackMode": {
+      "enabled": true,
+      "rules": [
+        "Accept custom formats for demo purposes",
+        "Log as non-standard but allow processing",
+        "Mark with special flag for review"
+      ]
+    }
+  }
+}
